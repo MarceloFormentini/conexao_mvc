@@ -98,18 +98,18 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="src\view\Principal.pas">
+        <DCCReference Include="view\Principal.pas">
             <Form>FPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="src\model\uConexaoFactory.pas"/>
-        <DCCReference Include="src\model\uEntidadeFactory.pas"/>
-        <DCCReference Include="src\model\uEntidadeProduto.pas"/>
-        <DCCReference Include="src\model\uFiredacConexao.pas"/>
-        <DCCReference Include="src\model\uFiredacQuery.pas"/>
-        <DCCReference Include="src\model\uIConexao.pas"/>
-        <DCCReference Include="src\controller\uController.pas"/>
-        <DCCReference Include="src\controller\uIController.pas"/>
+        <DCCReference Include="model\uConexaoFactory.pas"/>
+        <DCCReference Include="model\uEntidadeFactory.pas"/>
+        <DCCReference Include="model\uEntidadeProduto.pas"/>
+        <DCCReference Include="model\uFiredacConexao.pas"/>
+        <DCCReference Include="model\uFiredacQuery.pas"/>
+        <DCCReference Include="model\uIConexao.pas"/>
+        <DCCReference Include="controller\uController.pas"/>
+        <DCCReference Include="controller\uIController.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
