@@ -102,14 +102,14 @@
             <Form>FPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="model\uConexaoFactory.pas"/>
-        <DCCReference Include="model\uEntidadeFactory.pas"/>
-        <DCCReference Include="model\uEntidadeProduto.pas"/>
-        <DCCReference Include="model\uFiredacConexao.pas"/>
-        <DCCReference Include="model\uFiredacQuery.pas"/>
-        <DCCReference Include="model\uIConexao.pas"/>
-        <DCCReference Include="controller\uController.pas"/>
-        <DCCReference Include="controller\uIController.pas"/>
+        <DCCReference Include="model\interface\uIConexao.pas"/>
+        <DCCReference Include="model\impl\uConexaoFactory.pas"/>
+        <DCCReference Include="model\impl\uEntidadeFactory.pas"/>
+        <DCCReference Include="model\impl\uEntidadeProduto.pas"/>
+        <DCCReference Include="model\impl\uFiredacConexao.pas"/>
+        <DCCReference Include="model\impl\uFiredacQuery.pas"/>
+        <DCCReference Include="controller\impl\uController.pas"/>
+        <DCCReference Include="controller\interface\uIController.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

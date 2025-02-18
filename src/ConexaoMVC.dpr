@@ -3,14 +3,14 @@ program ConexaoMVC;
 uses
   Vcl.Forms,
   Principal in 'view\Principal.pas' {FPrincipal},
-  uConexaoFactory in 'model\uConexaoFactory.pas',
-  uEntidadeFactory in 'model\uEntidadeFactory.pas',
-  uEntidadeProduto in 'model\uEntidadeProduto.pas',
-  uFiredacConexao in 'model\uFiredacConexao.pas',
-  uFiredacQuery in 'model\uFiredacQuery.pas',
-  uIConexao in 'model\uIConexao.pas',
-  uController in 'controller\uController.pas',
-  uIController in 'controller\uIController.pas';
+  uIConexao in 'model\interface\uIConexao.pas',
+  uConexaoFactory in 'model\impl\uConexaoFactory.pas',
+  uEntidadeFactory in 'model\impl\uEntidadeFactory.pas',
+  uEntidadeProduto in 'model\impl\uEntidadeProduto.pas',
+  uFiredacConexao in 'model\impl\uFiredacConexao.pas',
+  uFiredacQuery in 'model\impl\uFiredacQuery.pas',
+  uController in 'controller\impl\uController.pas',
+  uIController in 'controller\interface\uIController.pas';
 
 {$R *.res}
 
